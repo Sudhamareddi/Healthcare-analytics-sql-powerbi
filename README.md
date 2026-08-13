@@ -8,13 +8,18 @@ Objective
 Simulate a real-world healthcare analytics workflow: take raw, unvalidated patient admission records, clean and structure them into an analysis-ready dataset, and surface actionable KPIs and trends for stakeholder reporting — patient demographics, hospital-level admission patterns, and billing behavior.
 
 Data Source
+
 Dataset: Healthcare Dataset (55,500 records) — Kaggle
 Note: This is a synthetic dataset generated for analytics practice, not real patient/hospital records. Fields include patient demographics, admission/discharge dates, hospital, doctor, admission type, billing amount, and test results.
+
 Tools Used
+
 Google BigQuery — data storage, cleaning, and SQL analysis
 SQL — data validation, transformation, and aggregation queries
 Power BI — dashboard and visualization layer
+
 What I Did
+
 Data cleaning & validation: Loaded 55,500 raw records into BigQuery and built a cleaned view that removes null dates, invalid date logic (discharge before admission), impossible ages, zero/negative billing values, and duplicate admission records.
 Demographic analysis: Queried patient distribution and average billing across age groups and gender.
 Hospital & admission-type trends: Analyzed admission volume, average length of stay, and average billing across 4 hospitals and 4 admission types (Emergency, Elective, Urgent, Routine).
@@ -42,6 +47,7 @@ Show Image
 
 
 Next Steps
+
 Extend the model with a time-series view (admissions/billing trend over months) if the dataset is expanded with a wider date range.
 Add a filter/slicer panel (by hospital, admission type, date range) to make the dashboard interactive for different stakeholder questions.
 Validate findings against a real (anonymized) healthcare dataset if access becomes available, to compare synthetic vs. real-world patterns
