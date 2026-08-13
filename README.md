@@ -24,11 +24,11 @@ Dashboard: Connected BigQuery to Power BI and built a KPI + visual summary dashb
 See queries.sql for the full SQL.
 
 Key Findings
-Data quality: Cleaning removed ~9.9% of raw records (55,500 → 50,000) due to invalid dates, out-of-range ages, and duplicate entries.
+Data quality: Cleaning removed 9.9% of raw records (55,500 → 50,000) due to invalid dates, out-of-range ages, and duplicate entries.
 Total admissions analyzed: 50,000
 Average length of stay: 16.9 days
 Average billing per patient: $20,862.25
-Total billing volume: ~$1.04 billion
+Total billing volume: $1.04 billion
 Abnormal test results: 50% of all patients
 Billing scales strongly with age: average billing rises roughly 10x from under-18 patients (~$3,450) to 75+ patients (~$41,300), with no meaningful gender gap at any age band.
 Admission type drives cost and stay more than hospital does: Emergency admissions have the shortest average stay (~15 days) and lowest average billing (~$17.6K–18.5K); Routine admissions have the longest stay (~19–20 days). All 4 hospitals showed consistent patterns, with no single outlier hospital.
