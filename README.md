@@ -43,6 +43,9 @@ Dashboard
 
 Tableau Public Image
 
+<img width="1499" height="1199" alt="Dashboard 1" src="https://github.com/user-attachments/assets/27084be9-666d-4745-9111-3f6de7740aa1" />
+
+
 ![Healthcare Analytics Dashboard](/Dashboard 1.png) 
 
 Power BI  Image
