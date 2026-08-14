@@ -41,9 +41,9 @@ Admission type drives cost and stay more than hospital does: Emergency admission
 
 Dashboard
 
-Tableau Public 
+Tableau Public Image
 
-Dashboard 1.png
+![Healthcare Analytics Dashboard](/Dashboard 1.png) 
 
 Power BI  Image
 
