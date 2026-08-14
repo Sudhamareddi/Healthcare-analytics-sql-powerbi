@@ -39,10 +39,18 @@ Abnormal test results: 50% of all patients
 Billing scales strongly with age: average billing rises roughly 10x from under-18 patients ($3,450) to 75+ patients ($41,300), with no meaningful gender gap at any age band.
 Admission type drives cost and stay more than hospital does: Emergency admissions have the shortest average stay (15 days) and lowest average billing ($17.6K–18.5K); Routine admissions have the longest stay (19–20 days). All 4 hospitals showed consistent patterns, with no single outlier hospital.
 
-Dashboard Image
+Dashboard
+
+Tableau Public 
+View the Tableau 
+
+
+Power BI  Image
 
 <img width="673" height="334" alt="image" src="https://github.com/user-attachments/assets/27758f93-8ea8-4096-9870-a85702e45766" />
 
+
+Both dashboards present the same underlying analysis — built separately to demonstrate proficiency across BI tools.
 
 Next Steps
 
